@@ -22,3 +22,9 @@ def gen_guesses(set, guess, guess_len, alpha_len, secret_len, secret):
 
 gen_guesses(["a", "b", "c"], "", 0, 3, 2, "ab")
 print(global_mon)
+
+global_mon = ""
+global_bool = False
+
+gen_guesses(["a", "b", "c", "f", "4"], "", 0, 3, 3, "ccb")
+print(global_mon)
